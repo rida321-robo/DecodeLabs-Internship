@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DecodeLabs Internship Showcase | Project 1</title>
+    <!-- Google Fonts: Roboto & Open Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Main Navigation Header -->
+    <header class="navbar">
+        <h2 class="logo">Decode<span>Labs</span></h2>
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle Navigation">☰</button>
+        <nav class="nav-links" id="navLinks">
+            <a href="#philosophy" class="nav-item active">Philosophy</a>
+            <a href="#workflows" class="nav-item">Workflows</a>
+            <a href="#architecture" class="nav-item">Architecture</a>
+        </nav>
+    </header>
+
+    <!-- Semantic Page Layout -->
+    <main class="layout-container">
+        
+        <!-- Primary Main Section -->
+        <section class="main-content">
+            
+            <section class="hero-card" id="philosophy" aria-labelledby="phil-heading">
+                <span class="badge">Batch 2026 Milestone</span>
+                <h1 id="phil-heading">Crafting Accessible & Responsive Web Experiences</h1>
+                <p>Mastering pure HTML, CSS, and vanilla JavaScript to build resilient user interfaces without standard heavy frameworks.</p>
+                <nav class="hero-actions">
+                    <button class="btn btn-primary" id="exploreBtn">Explore Blueprint</button>
+                    <button class="btn btn-secondary" id="themeToggleBtn">Toggle Warm Accent</button>
+                </nav>
+            </section>
+
+            <!-- Articles Section -->
+            <section class="articles-grid" id="workflows" aria-label="Workflows Overview">
+                <article class="card">
+                    <figure class="icon-wrapper">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+                    </figure>
+                    <h3>Semantic Foundation</h3>
+                    <p>Using correct landmarks like <code>&lt;main&gt;</code>, <code>&lt;article&gt;</code>, and <code>&lt;footer&gt;</code> ensures high readability and screen reader compliance.</p>
+                </article>
+
+                <article class="card">
+                    <figure class="icon-wrapper">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect><line x1="12" y1="18" x2="12.01" y2="18"></line></svg>
+                    </figure>
+                    <h3>Mobile-First Approach</h3>
+                    <p>Designed single-column layouts by default and progressively enhancing display structures using standard responsive breakpoints.</p>
+                </article>
+
+                <article class="card">
+                    <figure class="icon-wrapper">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+                    </figure>
+                    <h3>Vanilla Interactivity</h3>
+                    <p>Efficient DOM updates and simple state management directly in pure JS, eliminating heavy third-party framework overheads.</p>
+                </article>
+            </section>
+
+            <!-- Architecture Section -->
+            <section class="hero-card architecture-section" id="architecture" aria-labelledby="arch-heading">
+                <h3 id="arch-heading">System Architecture & Standards</h3>
+                <p>Pure grid-based architectural flow complying with strict accessibility parameters and dynamic rendering rules.</p>
+            </section>
+
+        </section>
+
+        <!-- Sidebar Section -->
+        <aside class="sidebar">
+            <section class="widget">
+                <h3>Internship Directives</h3>
+                <ul class="directive-list">
+                    <li><span class="status-icon">✓</span> Pure HTML/CSS/JS</li>
+                    <li><span class="status-icon">✓</span> WCAG Accessibility</li>
+                    <li><span class="status-icon">✓</span> No Frameworks</li>
+                    <li><span class="status-icon">✓</span> Dynamic Layouts</li>
+                </ul>
+            </section>
+
+            <section class="widget status-box">
+                <h4>System Status</h4>
+                <p>Project 1 Active</p>
+                <p class="progress-bar">
+                    <span class="progress-fill"></span>
+                </p>
+                <small>Ready for quality audit</small>
+            </section>
+        </aside>
+
+    </main>
+
+    <!-- Terminal Metadata Footer -->
+    <footer class="footer">
+        <p>&copy; 2026 DecodeLabs Internship Program. Greater Lucknow, India.</p>
+        <p><small>Universal Access & High Quality Standards</small></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
